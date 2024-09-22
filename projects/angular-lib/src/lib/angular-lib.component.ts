@@ -4,12 +4,8 @@ import { Component } from '@angular/core';
   selector: 'lib-angular-lib',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      angular-lib works!
-    </p>
-  `,
-  styles: ``
+  templateUrl:"./lib.component.html",
+  styleUrls:["./lib.component.scss"]
 })
 export class AngularLibComponent {
 
