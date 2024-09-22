@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls:["./lib.component.scss"]
 })
 export class AngularLibComponent {
+  message: string = 'Hello, World!'
 
 }
